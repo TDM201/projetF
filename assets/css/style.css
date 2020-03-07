@@ -11,20 +11,30 @@ body {
     height: 100%;
     border-right: 1px solid #ccc;
 }
-.logo {
-    background-color: #1b617c;
-    padding: 20px 15px;
-}
 .menu span {
     display: block;
-    padding: 10px 15px;
     border-bottom: 1px solid #ccc;
+    padding: 10px 15px;
 }
-.menu span a {
+.logo {
+    background-color: #1b617c;
+}
+.logo img {
+    vertical-align: middle;
+    width: 30px;
+}
+.logo a {
+    color: #fff;
+    font-size: 20px;
+}
+.logo a:hover {
+    text-decoration: none;
+}
+.menu span:not(.logo) a:not(.add) {
     color: rgb(112, 108, 108);
     font-weight: 500;
 }
-.menu span a:hover {
+.menu span:not(.logo) a:not(.add):hover {
     text-decoration: none;
     color: #1b617c;
     font-weight: 650;
@@ -35,9 +45,8 @@ body {
 .add i {
     font-size: 25px;
     color: rgb(10, 172, 10);
-    vertical-align: middle;
 }
-.active {
+#current {
     color: #1b617c;
     font-weight: 650;
 }
