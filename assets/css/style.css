@@ -14,7 +14,7 @@ body {
 .menu span {
     display: block;
     border-bottom: 1px solid #ccc;
-    padding: 10px 15px;
+    padding: 11px 15px;
 }
 .logo {
     background-color: #1b617c;
@@ -43,10 +43,18 @@ body {
     float: right;
 }
 .add i {
-    font-size: 25px;
+    font-size: 27px;
     color: rgb(10, 172, 10);
 }
 #current {
     color: #1b617c;
     font-weight: 650;
+}
+.dashboard {
+    width: 82%;
+    position: absolute;
+    left: 18%;
+}
+.header {
+    background: #1b617c;
 }
