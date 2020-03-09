@@ -1,20 +1,15 @@
-body {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    background: #f2f2f2;
-}
 .menu {
     position: absolute;
     left: 0;
     width: 18%;
-    height: 100%;
+    height: 100vh;
     border-right: 1px solid #ccc;
 }
 .menu span {
     display: block;
     border-bottom: 1px solid #ccc;
     padding: 11px 15px;
+    width: auto;
 }
 .logo {
     background-color: #1b617c;
@@ -27,7 +22,7 @@ body {
     color: #fff;
     font-size: 20px;
 }
-.logo a:hover {
+a:hover {
     text-decoration: none;
 }
 .menu span:not(.logo) a:not(.add) {
@@ -57,4 +52,35 @@ body {
 }
 .header {
     background: #1b617c;
+}
+input[type=text] {
+    outline: none;
+    font-size: 14px;
+}
+.dots {
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+.header a {
+    float: right;
+    margin-top: 7px;
+}
+.bar {
+    width: 100%;
+    background: #1b617c;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    padding: 12px;
+    display: none;
+}
+.bar i {
+    font-size: 25px;
+    color: #fff;
+}
+.switch {
+    background-color: #1b617c;
+}
+#prt , #pro {
+    display: none;
 }
